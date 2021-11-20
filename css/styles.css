@@ -13,3 +13,25 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.section-what p{
+display: none;
+}
+.section-contacts {
+  color: white;
+  background-image: url(../images/c_image.jpg);
+  height: 500px;
+}
+textarea, input {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+::placeholder{
+  color: white;
+}
+.section-socials img{
+  padding: 10px;
+}
+body{
+  overflow-x: hidden;
+}
