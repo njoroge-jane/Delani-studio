@@ -108,8 +108,32 @@ $("#work8").hover(
   }
 );
 
+$('form').submit(function(event){
+  event.preventDefault();
+  var name=$('#name').val();
+  var email=$('#email').val();
+  var message=$('#message').val();
 
-
-
+  validity(name, email, message);
+  
+  
+});
 }
+
+
  );
+
+ var validity = function(name,email,message){
+   if(name==''){
+     alert('Please enter your name');
+   }
+   else if(email==''){
+     alert('Please enter your Email');
+   }
+   else if(message == ''){
+     alert('KIndly write a message');
+   }
+   else{
+     alert(name +' we have received your message. Thank you for reaching out to us.');
+   }
+ }
