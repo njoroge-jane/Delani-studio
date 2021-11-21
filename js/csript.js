@@ -29,6 +29,87 @@ $('.product-paragraph').on('click',function(){
 });
 
 
+$("#work1").hover(
+  function() {
+    $(".work1").show("");
+  },
+  function() {
+    $(".work1").hide("");
+  }
+);
+
+
+$("#work2").hover(
+  function() {
+    $(".work2").show("");
+  },
+  function() {
+    $(".work2").hide("");
+  }
+);
+
+
+$("#work3").hover(
+  function() {
+    $(".work3").show("");
+  },
+  function() {
+    $(".work3").hide("");
+  }
+);
+
+
+$("#work4").hover(
+  function() {
+    $(".work4").show("");
+  },
+  function() {
+    $(".work4").hide("");
+  }
+);
+
+
+$("#work5").hover(
+  function() {
+    $(".work5").show("");
+  },
+  function() {
+    $(".work5").hide("");
+  }
+);
+
+
+$("#work6").hover(
+  function() {
+    $(".work6").show("");
+  },
+  function() {
+    $(".work6").hide("");
+  }
+);
+
+
+$("#work7").hover(
+  function() {
+    $(".work7").show("");
+  },
+  function() {
+    $(".work7").hide("");
+  }
+);
+
+
+$("#work8").hover(
+  function() {
+    $(".work8").show("");
+  },
+  function() {
+    $(".work8").hide("");
+  }
+);
+
+
+
 
 }
-  );
+ );
